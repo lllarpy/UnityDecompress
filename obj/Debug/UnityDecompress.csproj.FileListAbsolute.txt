@@ -1,0 +1,7 @@
+C:\Users\lllarpy\Desktop\UnityDecom\UnityDecompress.exe
+C:\Users\lllarpy\Desktop\UnityDecompress\obj\Debug\UnityDecompress.csproj.AssemblyReference.cache
+C:\Users\lllarpy\Desktop\UnityDecompress\obj\Debug\UnityDecompress.csproj.SuggestedBindingRedirects.cache
+C:\Users\lllarpy\Desktop\UnityDecompress\obj\Debug\UnityDecompress.csproj.CoreCompileInputs.cache
+C:\Users\lllarpy\Desktop\UnityDecompress\obj\Debug\UnityDecompress.exe
+C:\Users\lllarpy\Desktop\UnityDecom\7za.exe
+C:\Users\lllarpy\Desktop\UnityDecompress\obj\Debug\UnityDecompress.csproj.CopyComplete
