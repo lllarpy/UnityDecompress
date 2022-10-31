@@ -5,3 +5,5 @@ C:\Users\lllarpy\Desktop\UnityDecompress\obj\Debug\UnityDecompress.csproj.CoreCo
 C:\Users\lllarpy\Desktop\UnityDecompress\obj\Debug\UnityDecompress.exe
 C:\Users\lllarpy\Desktop\UnityDecom\7za.exe
 C:\Users\lllarpy\Desktop\UnityDecompress\obj\Debug\UnityDecompress.csproj.CopyComplete
+C:\Program Files\UnityDecom\7za.exe
+C:\Program Files\UnityDecom\UnityDecompress.exe

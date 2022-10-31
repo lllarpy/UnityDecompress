@@ -28,9 +28,14 @@ namespace UnityDecompress
         private void Main(string input)
         {
             Console.WriteLine("файл: " + input);
-
             myDir = Path.GetFileNameWithoutExtension(input) + "\\";
+            
             if (Directory.Exists(myDir)) Directory.Delete(myDir, true);
+            if (Directory.Exists($".\\unpacked-{myDir}"))
+            {
+                Console.WriteLine($"этот пакет уже распакован в .\\unpacked-{myDir}");
+                return;
+            }
             Directory.CreateDirectory(myDir + "Temp");
 
             Console.WriteLine("распаковка пакета");
@@ -42,7 +47,7 @@ namespace UnityDecompress
                 ProcessFile($"{dir}\\asset", $"{dir}\\asset.meta", $"{dir}\\pathname");
 
             Console.WriteLine("перемещение");
-            Directory.Move(myDir + "Assets", $"unpacked-{input}");
+            Directory.Move(myDir + "Assets", $".\\unpacked-{myDir}");
 
             Console.WriteLine("удаление временных файлов");
             Directory.Delete(myDir, true);
